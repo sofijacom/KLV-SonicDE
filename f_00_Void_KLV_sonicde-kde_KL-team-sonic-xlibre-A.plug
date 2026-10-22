@@ -89,8 +89,7 @@ xbps-install -y e2fsprogs yelp gparted viewnior pfetch
 xbps-install -y dosfstools mtools galculator
 xbps-install -y squashfs-tools wget leafpad xorriso
 xbps-install -y btop gpick gcolor2 gufw mpv htop
-xbps-install -y brightnessctl dunst
-xbps-install -y gettext cups
+xbps-install -y brightnessctl gettext cups
 xbps-install -y python3 python3-dbus python3-gobject x11-utils x11-xkb-utils dbus
 
 # Install Xorg components for SonicDE <JWM>
