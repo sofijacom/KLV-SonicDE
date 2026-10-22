@@ -108,7 +108,7 @@ xbps-install -y sddm
 # ln -s /etc/sv/sddm /var/service/
 ln -s /etc/sv/sddm /etc/runit/runsvdir/default/sddm
 
-# Force the SDDM theme from the sonicde-meta dependencies
+# Force the SDDM theme from the sonicde-meta dependencies 
 mkdir -p /etc/sddm.conf.d
 cat <<'EOF' > /etc/sddm.conf.d/sonic-theme.conf
 [Theme]
@@ -117,7 +117,7 @@ EOF
 
 ## --- STAGE 4: Audio (PipeWire) ---
 # Install packages. sonicde-meta pulls in sonic-pipewire, but we install the base explicitly
-xbps-install -y pipewire wireplumber alsa-utils bluez bluez-obex bluez-deprecated libspa-bluetooth
+xbps-install -y pipewire wireplumber alsa-utils alsa-pipewire bluez bluez-obex bluez-deprecated libspa-bluetooth
 
 # --- Autostart via XDG (standard method for SonicDE/KDE) ---
 # Copy the global .desktop files to the autostart directory
