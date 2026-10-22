@@ -257,11 +257,11 @@ wget -c https://github.com/techrockedge/xbps_packages/raw/refs/heads/main/uextra
 
 # Spectrwm components
 # wget -c https://github.com/techrockedge/xbps_packages/raw/refs/heads/main/Spectrwm-xlibre-bar-config-4.2_1.noarch.xbps
-wget -c https://github.com/techrockedge/xbps_packages/raw/refs/heads/main/backgrounds-spectrwm-2.0_1.noarch.xbps
-wget -c https://github.com/techrockedge/xbps_packages/raw/refs/heads/main/spectrwm-icons-1.0_3.noarch.xbps
-wget -c https://github.com/techrockedge/xbps_packages/raw/refs/heads/main/spectrwm-themes-1.0_4.noarch.xbps
-wget -c https://github.com/techrockedge/xbps_packages/raw/refs/heads/main/Touchpad-spectrwm-2.1_1.noarch.xbps
-wget -c https://github.com/techrockedge/xbps_packages/raw/refs/heads/main/spectrwm-dcontrol-2.0_1.noarch.xbps
+# wget -c https://github.com/techrockedge/xbps_packages/raw/refs/heads/main/backgrounds-spectrwm-2.0_1.noarch.xbps
+# wget -c https://github.com/techrockedge/xbps_packages/raw/refs/heads/main/spectrwm-icons-1.0_3.noarch.xbps
+# wget -c https://github.com/techrockedge/xbps_packages/raw/refs/heads/main/spectrwm-themes-1.0_4.noarch.xbps
+# wget -c https://github.com/techrockedge/xbps_packages/raw/refs/heads/main/Touchpad-spectrwm-2.1_1.noarch.xbps
+# wget -c https://github.com/techrockedge/xbps_packages/raw/refs/heads/main/spectrwm-dcontrol-2.0_1.noarch.xbps
 
 
 #### Install KLV custom packages ####
@@ -322,7 +322,7 @@ xbps-install -y --repository=Build/ poorercputemp-0.2_1
 # xbps-install -y --repository=Build/ Spectrwm-xlibre-bar-config-4.2_1
 
 # Install backgrounds-spectrwm-2.0_1
-xbps-install -y --repository=Build/ backgrounds-spectrwm-2.0_1
+# xbps-install -y --repository=Build/ backgrounds-spectrwm-2.0_1
 
 # Install psync
 xbps-install -y --repository=Build/ psync-2.9_2
