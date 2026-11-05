@@ -81,6 +81,10 @@ xbps-install -y yad udisks2 breeze-icons
 xbps-install -y acpi lua fox xdotool lm_sensors
 xbps-install -y noto-fonts-ttf gtk-layer-shell gsimplecal-gtk3
 
+## Video drivers
+xbps-install -y aha dmidecode clinfo glxinfo libglvnd mesa-dri intel-video-accel
+xbps-install -y mesa-intel-dri mesa-vulkan-intel vulkan-loader qt6-tools VirtualGL
+
 # Optional packages
 #
 xbps-install -y geany gftp ffmpeg mtpaint dolphin konsole void-artwork
