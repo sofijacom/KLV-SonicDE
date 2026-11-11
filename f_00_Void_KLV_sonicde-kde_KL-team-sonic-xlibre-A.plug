@@ -18,7 +18,7 @@
 ## --- STAGE 0: Security keys ---
 mkdir -p /var/db/xbps/keys
 wget -O /var/db/xbps/keys/00:ca:42:57:c9:c0:9a:ec:94:b4:7d:97:e5:a9:aa:1e.plist https://github.com/xlibre-void/xlibre/raw/refs/heads/main/repo-keys/x86_64/00:ca:42:57:c9:c0:9a:ec:94:b4:7d:97:e5:a9:aa:1e.plist
-wget -O /var/db/xbps/keys/75:89:db:c3:95:d3:2c:c5:b0:31:b7:f0:2f:eb:3b:7f.plist https://github.com/techrockedge/void-package/raw/refs/heads/main/repo-keys/x86_64/75:89:db:c3:95:d3:2c:c5:b0:31:b7:f0:2f:eb:3b:7f.plist
+wget -O /var/db/xbps/keys/00:ca:42:57:c9:c0:9a:ec:94:b4:7d:97:e5:a9:aa:1e.plist https://github.com/sofijacom/void-package/raw/refs/heads/main/repo-keys/x86_64/00:ca:42:57:c9:c0:9a:ec:94:b4:7d:97:e5:a9:aa:1e.plist
 wget -O /var/db/xbps/keys/0c:88:e8:39:e6:e5:4c:0c:9f:7b:0f:ac:eb:68:16:c0.plist https://github.com/sonicde-void/sonicde-void/raw/refs/heads/master/common/repo-keys/0c:88:e8:39:e6:e5:4c:0c:9f:7b:0f:ac:eb:68:16:c0.plist
 
 echo "Got the keys....."
